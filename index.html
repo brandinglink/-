@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="우뉴뉴">
+    <meta property="og:description" content="우뉴뉴">
+    <meta property="og:image" content="./image.jpg">
+    <title>우뉴뉴</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+        body {
+            background-color:#3C3D47;
+        }
+        .pro {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            margin-bottom: 40px;
+        }
+        .profile {
+            width: 58px;
+            height: 58px;
+            border-radius: 100%;
+            border: 1px solid black;
+            background-image: url('./image.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+        .headcopy {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 260px;
+        }
+        .main {
+            color : #FFFFFF;
+            font-size: 27px;
+            size : 20px;
+            font-weight: 800;
+            margin: 0%;
+        }
+        .sub {
+            color : #B1B1B5;
+            font-size: 14px;
+            font-weight: 400;
+            size : 14px;
+            margin-top: 10px;
+        }
+        .minis {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            gap: 7px;
+            margin-bottom: 68px;
+        }
+        .minis > a {
+            width: 102px;
+            height: 48px;
+            border-radius: 32px;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            white-space:pre-wrap;
+        }
+        .notion {
+            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #F7F6F3;
+            color:#84827D;
+        }
+        .brunch {
+            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #02C3BD;
+            color:#FFFFFF;
+        }
+        .facebook {
+            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #4167B3;
+            color:#FFFFFF;
+        }
+        .wrap {
+            width: 320px;
+            margin: 30px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .bigs {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            gap: 10px;
+        }
+        .bigs > a {
+            width: 123px;
+            background-color: white;
+            margin-bottom: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-decoration: none;
+            padding: 20px 16px 16px 16px;
+            border-radius: 8px;
+        }
+        .name {
+            font-size: 22px;
+            font-weight: 700;
+            color: #222222;
+            margin-bottom: 45px;
+        }
+        .desc {
+            font-size: 12px;
+            font-weight: 500;
+            color: #555555;
+            margin-bottom: 24px;
+        }
+        .btn {
+            font-size: 12px;
+            font-weight: 700;
+            color: #ffffff;
+            background-color: #26C50C;
+            border-radius: 4px;
+            padding: 5px 4px 5px 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="pro">
+            <div class="headcopy">
+                <h1 class="main">안녕하세요<br>우뉴뉴 입니다.</h1>
+                <p class="sub">하루하루 당신은 모든 면에서 점점 더 나아지고 있습니다.</p>
+            </div>
+            <div class="profile"></div>
+        </div>
+        <div class="minis">
+            <a class="notion" target="_blank" href="https://www.instagram.com/impress._.design/">인스타그램    ></a>
+            <a class="brunch" target="_blank" href="https://m.blog.naver.com/PostList.naver?blogId=rkdejrdn">블로그        ></a>
+            <a class="facebook" target="_blank" href="https://open.kakao.com/o/sD2avRFe">카카오톡 상담       ></a>
+        </div>
+        <div style="color:#FFFFFF;width: 320px;font-size: 14px;margin-bottom: 8px;">책읽는 청춘 우뉴뉴</div>
+        <div class="bigs">
+            <a target="_blank" href="https://m.blog.naver.com/rkdejrdn/222789663550">
+                <div class="name">내가 지금 알아야 할 000</div>
+                <div class="desc"><br>지금<br>공부하세요.</div>
+                <div class="btn">Click</div>
+            </a>
+            <a target="_blank" href="https://m.blog.naver.com/PostView.naver?blogId=rkdejrdn&logNo=222787279334&navType=by">
+                <div class="name">당장 000<br>시작하세요.</div>
+                <div class="desc">나이 들수록<br>사람들이<br>가장 후회하는 1가지</div>
+                <div class="btn">Click</div>
+            </a>
+        </div>
+        <div style="color:#B1B1B5;font-size: 14px;background-position: center;background-size: cover;position: absolute;bottom: 50px;">@impress._.design</div>
+    </div>
+</body>
+</html>
